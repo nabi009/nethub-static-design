@@ -12777,6 +12777,7 @@ html:not(.lt-ie10) .not-animated {
     .isotope-xl .row>[class*=col-] .row>[class*=col-] {
         margin-top: 35px
     }
+ 
 }
 
 @media(min-width:1800px) {
@@ -12816,7 +12817,14 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .isotope-filters-list>li>a {
-    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0 5px;
+    color: #9b9b9b;
+    transition: .3s all ease-in;
+
+    /* ----------- */
+    /* font-size: 14px;
     font-weight: 500;
     line-height: 1.3;
     text-transform: uppercase;
@@ -12828,7 +12836,7 @@ html:not(.lt-ie10) .not-animated {
     padding: 21px 20px 19px!important;
     min-width: 200px;
     border-radius: 5px !important;
-    text-align:center;
+    text-align:center; */
 }
 
 .isotope-filters-list>li>a.active,
@@ -36492,6 +36500,12 @@ html[dir=rtl] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 /*=============================================
 =            16. Brand Logo Css             =
 =============================================*/
+
+.modern-grid--6 {
+    display: grid;
+    grid-row-gap: 60px;
+    grid-template-columns: repeat(6, 1fr);
+}
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -36503,7 +36517,8 @@ html[dir=rtl] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 .brand-logo-slider__one .brand-logo {
 	align-self: center;
 	text-align: center;
-	position: relative;
+    position: relative;
+  
   /*&--slider{
             margin-bottom: 0;
         }*/;
@@ -36612,3 +36627,4 @@ html[dir=rtl] .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current {
 }
 
 
+/* price list */
