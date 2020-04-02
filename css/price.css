@@ -1,0 +1,31 @@
+.iq-pricing { position: relative; display: inline-block; width: 100%; border: 1px solid #ededed; background: #fff; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.iq-pricing .price-title { padding: 30px; position: relative; background-size: 100% !important; }
+.iq-pricing .price-title:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; background: rgba(74, 196, 243, 0.8); }
+.iq-pricing .price-title:after { position: absolute; content: ""; left: 0; bottom: 0; background: url('/images/06.png') no-repeat center bottom; background-size: 100%; height: 100%; width: 100%; }
+.iq-pricing.pricing-02 .price-title:after { position: absolute; content: ""; left: 0; bottom: 0; background: url('../images/drive/11.png') no-repeat center bottom; background-size: 100%; height: 100%; width: 100%; }
+.iq-pricing.pricing-03 .price-title:after { position: absolute; content: ""; left: 0; bottom: 0; background: url('../images/drive/12.png') no-repeat center bottom; background-size: 100%; height: 100%; width: 100%; }
+.iq-pricing .price-title h2 { font-family: 'Work Sans', sans-serif; line-height: 58px; font-size: 50px; position: relative; color: #fff; font-weight: 800; }
+.iq-pricing .price-title h2 small { font-size: 16px; color: #fff; vertical-align: super; padding: 0 5px; }
+.iq-pricing .price-title h2 small:first-child { font-size: 24px; }
+.iq-pricing .price-title span { letter-spacing: 6px; position: relative; color: #fff; }
+.iq-pricing ul { margin: 15px 0 0; padding: 0; }
+.iq-pricing ul li { line-height: 45px; list-style: none; }
+.iq-pricing .price-footer { padding: 30px 0; z-index: 9; position: relative; }
+
+/* pricing 1 */
+.iq-pricing-01 { padding: 30px 20px; text-align: center; z-index: 1; position: relative; border-radius: 10px; margin-top: 0; border: 1px solid #f2f2f2; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
+.iq-pricing-01:hover, .iq-pricing-01.active { margin-top: -5px; box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1); border: 1px solid #4ac4f3; }
+.iq-pricing-01 .pricing-header h6 { font-weight: 400; letter-spacing: 2px; text-transform: uppercase; }
+.iq-pricing-01 .pricing-header h2 { margin: 15px 0; }
+.iq-pricing-01 ul { margin: 0; padding: 0; }
+.iq-pricing-01 ul li { list-style: none; margin: 15px 0; }
+.iq-pricing-01 ul li i { margin-right: 5px; }
+.iq-pricing-01 .button { margin-top: 15px; }
+
+.iq-feature img { width: 180px; height: 180px; border-radius: 100%; }
+.iq-feature .step-img { position: relative; display: inline-block; margin-bottom: 30px; }
+.iq-feature .step-number { background: #5bc9f4; color: #ffffff; width: 50px; height: 50px; border-radius: 100%; font-size: 18px; position: absolute; text-align: center; line-height: 43px; right: 0; top: 0; border: 4px solid #ffffff; }
+.iq-feature.stap-left:before { position: absolute; left: 79%; top: 20%; background: url('../../images/arrow/dashed-arrow1.png') no-repeat 0 0; content: ""; width: 174px; height: 29px; }
+.iq-feature.stap-right:before { position: absolute; left: 79%; top: 25%; background: url('../../images/arrow/dashed-arrow2.png') no-repeat 0 0; content: ""; width: 174px; height: 29px; }
+.iq-feature h5 { margin-bottom: 10px; }
+
