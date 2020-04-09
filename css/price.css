@@ -1,12 +1,17 @@
-.iq-pricing { position: relative; display: inline-block; width: 100%; border: 1px solid #ededed; background: #fff; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.iq-pricing { font-family: Open Sans,sans-serif!important;
+    font-weight: 400!important;
+    font-style: normal!important;
+    font-size: 16px!important;
+    
+    position: relative; display: inline-block; width: 100%; border: 1px solid #ededed; background: #fff; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
 .iq-pricing .price-title { padding: 30px; position: relative; background-size: 100% !important; }
 .iq-pricing .price-title:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; background: rgba(74, 196, 243, 0.8); }
 .iq-pricing .price-title:after { position: absolute; content: ""; left: 0; bottom: 0; background: url('/images/06.png') no-repeat center bottom; background-size: 100%; height: 100%; width: 100%; }
 .iq-pricing.pricing-02 .price-title:after { position: absolute; content: ""; left: 0; bottom: 0; background: url('../images/drive/11.png') no-repeat center bottom; background-size: 100%; height: 100%; width: 100%; }
 .iq-pricing.pricing-03 .price-title:after { position: absolute; content: ""; left: 0; bottom: 0; background: url('../images/drive/12.png') no-repeat center bottom; background-size: 100%; height: 100%; width: 100%; }
-.iq-pricing .price-title h2 { font-family: 'Work Sans', sans-serif; line-height: 58px; font-size: 50px; position: relative; color: #fff; font-weight: 800; }
-.iq-pricing .price-title h2 small { font-size: 16px; color: #fff; vertical-align: super; padding: 0 5px; }
-.iq-pricing .price-title h2 small:first-child { font-size: 24px; }
+.iq-pricing .price-title h2 { font-family: 'Work Sans', sans-serif!important; line-height: 58px!important; font-size: 50px!important; position: relative; color: #fff; font-weight: 800; }
+.iq-pricing .price-title h2 small { font-size: 16px!important; color: #fff; vertical-align: super; padding: 0 5px; }
+.iq-pricing .price-title h2 small:first-child { font-size: 24px!important; }
 .iq-pricing .price-title span { letter-spacing: 6px; position: relative; color: #fff; }
 .iq-pricing ul { margin: 15px 0 0; padding: 0; }
 .iq-pricing ul li { line-height: 45px; list-style: none; }
