@@ -6,7 +6,7 @@
     position: relative; display: inline-block; width: 100%; border: 1px solid #ededed; background: #fff; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
 .iq-pricing .price-title { padding: 30px; position: relative; background-size: 100% !important; }
 .iq-pricing .price-title:before { content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 100%; background: rgba(74, 196, 243, 0.8); }
-.iq-pricing .price-title:after { position: absolute; content: ""; left: 0; bottom: 0; background: url('/images/06.png') no-repeat center bottom; background-size: 100%; height: 100%; width: 100%; }
+.iq-pricing .price-title:after { position: absolute; content: ""; left: 0; bottom: 0; background: url('../images/06.png') no-repeat center bottom; background-size: 100%; height: 100%; width: 100%; }
 .iq-pricing.pricing-02 .price-title:after { position: absolute; content: ""; left: 0; bottom: 0; background: url('../images/drive/11.png') no-repeat center bottom; background-size: 100%; height: 100%; width: 100%; }
 .iq-pricing.pricing-03 .price-title:after { position: absolute; content: ""; left: 0; bottom: 0; background: url('../images/drive/12.png') no-repeat center bottom; background-size: 100%; height: 100%; width: 100%; }
 .iq-pricing .price-title h2 { font-family: 'Work Sans', sans-serif!important; line-height: 58px!important; font-size: 50px!important; position: relative; color: #fff; font-weight: 800; }
@@ -33,4 +33,22 @@
 .iq-feature.stap-left:before { position: absolute; left: 79%; top: 20%; background: url('../../images/arrow/dashed-arrow1.png') no-repeat 0 0; content: ""; width: 174px; height: 29px; }
 .iq-feature.stap-right:before { position: absolute; left: 79%; top: 25%; background: url('../../images/arrow/dashed-arrow2.png') no-repeat 0 0; content: ""; width: 174px; height: 29px; }
 .iq-feature h5 { margin-bottom: 10px; }
+.button {
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    border: none;
+    position: relative;
+    background: #4ac4f3;
+    font-family: 'Nunito', sans-serif;
+    display: inline-block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    }
 
+    
