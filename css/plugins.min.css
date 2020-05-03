@@ -28,7 +28,7 @@
   .ht-box-images.style-01 .image-box-wrap .box-image {
     text-align: center;
     margin-bottom: 41px;
-    color: #0092ce;
+    color: #086AD8;
   }
   
   .ht-box-images.style-01 .image-box-wrap .content {
@@ -75,7 +75,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    border: 2px solid #0092ce;
+    border: 2px solid #086ad8;
     opacity: 0;
     -webkit-transform-origin: 50% 50%;
         -ms-transform-origin: 50% 50%;
@@ -101,7 +101,7 @@
   }
   
   .ht-box-images.style-01:hover .circle-arrow a {
-    background: #0092ce;
+    background: #086AD8;
   }
   
   .ht-box-images.style-01:hover .circle-arrow .middle-dot {
@@ -302,7 +302,7 @@
   }
   
   .ht-box-images.style-05 .image-box-wrap .content .box-images-arrow a {
-    color: #0092ce;
+    color: #086AD8;
   }
   
   .ht-box-images.style-05:hover {
@@ -410,7 +410,7 @@
     font-size: 14px;
     font-weight: 500;
     border-top: 1px solid #eee;
-    color: #0092ce;
+    color: #086AD8;
     /* &:hover {
                           color: $white;
                           &::before {
@@ -420,7 +420,7 @@
   }
   
   .ht-box-images.style-06 .image-box-wrap .content .box-images-arrow::before {
-    background-color: #0092ce;
+    background-color: #086AD8;
     content: '';
     position: absolute;
     top: 0;
@@ -689,7 +689,7 @@
   
   .box-large-image__box .button-wrapper .btn {
     background: #fff;
-    color: #0092ce;
+    color: #086ad8;
     -webkit-transform: translateY(100%);
         -ms-transform: translateY(100%);
             transform: translateY(100%);
@@ -953,11 +953,11 @@
     font-size: 14px;
     font-weight: 500;
     border-top: 1px solid #eee;
-    color: #0092ce;
+    color: #086AD8;
   }
   
   .ht-large-box-images.style-03 .content .box-images-arrow::before {
-    background-color: #0092ce;
+    background-color: #086AD8;
     content: '';
     position: absolute;
     top: 0;
@@ -980,7 +980,7 @@
   }
   
   .ht-large-box-images.style-03:hover .content .heading {
-    color: #0092ce;
+    color: #086AD8;
   }
   
   .ht-large-box-images.style-03:hover .content .box-images-arrow {
@@ -1026,7 +1026,7 @@
   
   .ht-large-box-images.style-04 .content .box-images-arrow {
     margin-top: 20px;
-    color: #0092ce;
+    color: #086AD8;
   }
   
   .ht-large-box-images.style-04:hover .box-image {
